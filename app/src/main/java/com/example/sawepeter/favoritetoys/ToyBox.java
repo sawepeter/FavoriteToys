@@ -7,7 +7,36 @@ package com.example.sawepeter.favoritetoys;
 public final class ToyBox {
     public static String[] getToyNames(){
         return new String[]{
-                
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
+                "Red Toy Wagon",
         }
     }
 }
