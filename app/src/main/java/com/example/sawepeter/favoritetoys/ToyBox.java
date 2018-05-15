@@ -37,6 +37,6 @@ public final class ToyBox {
                 "Red Toy Wagon",
                 "Red Toy Wagon",
                 "Red Toy Wagon",
-        }
+        };
     }
 }
