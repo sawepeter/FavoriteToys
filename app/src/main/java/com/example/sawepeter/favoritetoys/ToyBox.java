@@ -8,10 +8,10 @@ public final class ToyBox {
     public static String[] getToyNames(){
         return new String[]{
                 "Red Toy Wagon",
-                "Red Toy Wagon",
-                "Red Toy Wagon",
-                "Red Toy Wagon",
-                "Red Toy Wagon",
+                "Mountain Bike",
+                "Play station",
+                "Football",
+                "Xbox gaming tool",
                 "Red Toy Wagon",
                 "Red Toy Wagon",
                 "Red Toy Wagon",
