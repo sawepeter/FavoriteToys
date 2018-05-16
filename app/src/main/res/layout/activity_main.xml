@@ -6,11 +6,16 @@
     android:layout_height="match_parent"
     tools:context="com.example.sawepeter.favoritetoys.MainActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_toy_names"
         android:padding="16dp"
         android:textSize="20sp"/>
+    </ScrollView>
 
 </FrameLayout>
