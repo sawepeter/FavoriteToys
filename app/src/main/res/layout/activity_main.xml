@@ -21,11 +21,25 @@
             android:paddingRight="16dp">
 
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_toy_names"
                 android:padding="16dp"
+                android:text="Button Type"
+                android:textStyle="bold"
                 android:textSize="20sp"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/group_button_type"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/circle_button"
+                android:text="Circle Button"
+                android:checked="true"/>
 
         </LinearLayout>
 
