@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splah.jpg",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\src\\main\\res\\drawable\\splah.jpg"
+    },
+    {
         "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\SAWE PETER\\.android\\build-cache\\a2fb50b6fc9f10ca5ce42085fb0f826f8cf588de\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
