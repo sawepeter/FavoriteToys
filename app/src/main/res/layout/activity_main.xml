@@ -56,9 +56,24 @@
                 android:textStyle="bold"
                 android:textSize="20sp"
                 android:layout_marginTop="20dp"/>
+            <SeekBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="0"
+                android:id="@+id/button_number_seek"/>
+
+
         </LinearLayout>
-
-
     </ScrollView>
+
+    <com.nightonke.boommenu.BoomMenuButton
+        android:layout_width="wrap_content"
+        android:id="@+id/boom"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        app:boom_inActionBar="false"
+        android:layout_height="wrap_content">
+
+    </com.nightonke.boommenu.BoomMenuButton>
 
 </FrameLayout>
