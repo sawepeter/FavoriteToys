@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_orange_dark"
+    android:background="@android:color/darker_gray"
     tools:context="com.example.sawepeter.favoritetoys.MainActivity">
 
     <ScrollView
@@ -29,10 +29,10 @@
                 android:textStyle="bold"
                 android:textSize="20sp"/>
 
-            <RadioButton
+            <RadioGroup
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/group_button_type"/>
+                android:id="@+id/group_button_type">
 
             <RadioButton
                 android:layout_width="match_parent"
@@ -41,6 +41,14 @@
                 android:text="Circle Button"
                 android:checked="true"/>
 
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hamburger Button"
+                    android:id="@+id/hamburger_button"/>
+
+
+            </RadioGroup>
         </LinearLayout>
 
 
