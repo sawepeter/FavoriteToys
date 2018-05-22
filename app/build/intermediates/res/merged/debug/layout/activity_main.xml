@@ -11,54 +11,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:paddingBottom="16dp"
-            android:paddingLeft="16dp"
-            android:paddingTop="16dp"
-            android:paddingRight="16dp">
-
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tv_toy_names"
                 android:padding="16dp"
-                android:text="Button Type"
                 android:textStyle="bold"
                 android:textSize="20sp"/>
-
-            <RadioGroup
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/group_button_type">
-
-            <RadioButton
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/circle_button"
-                android:text="Circle Button"
-                android:checked="true"/>
-
-                <RadioButton
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Hamburger Button"
-                    android:id="@+id/hamburger_button"/>
-            </RadioGroup>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@android:color/black"
-                android:text="Button Number"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:layout_marginTop="20dp"/>
-        </LinearLayout>
-
-
     </ScrollView>
+    
 
 </FrameLayout>
