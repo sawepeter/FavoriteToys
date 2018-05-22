@@ -20,6 +20,13 @@
                android:paddingRight="16dp"
                android:paddingTop="16dp">
 
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@android:color/black"
+                   android:text="Button Type"
+                   android:textStyle="bold"/>
+
            </LinearLayout>
     </ScrollView>
 
