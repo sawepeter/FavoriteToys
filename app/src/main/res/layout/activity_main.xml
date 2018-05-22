@@ -87,6 +87,22 @@
                        android:textSize="20sp"
                        android:layout_marginTop="20dp"/>
 
+                   <RadioGroup
+                       android:layout_width="match_parent"
+                       android:id="@+id/group_place_type"
+                       android:layout_height="wrap_content">
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="@android:color/black"
+                           android:text="Animation Duration"
+                           android:textStyle="bold"
+                           android:textSize="20sp"
+                           android:layout_marginTop="20dp"/>
+
+                   </RadioGroup>
+
                </RadioGroup>
 
            </LinearLayout>
