@@ -26,6 +26,12 @@
                    android:textColor="@android:color/black"
                    android:text="Button Type"
                    android:textStyle="bold"/>
+               <RadioGroup
+                   android:layout_width="match_parent"
+                   android:id="@+id/group_button_type"
+                   android:layout_height="wrap_content">
+
+               </RadioGroup>
 
            </LinearLayout>
     </ScrollView>
