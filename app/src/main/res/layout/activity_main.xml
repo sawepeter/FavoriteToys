@@ -73,6 +73,13 @@
                    android:textStyle="bold"
                    android:textSize="20sp"/>
 
+               <RadioGroup
+                   android:layout_width="match_parent"
+                   android:id="@+id/group_boom_type"
+                   android:layout_height="wrap_content">
+
+               </RadioGroup>
+
            </LinearLayout>
     </ScrollView>
 
