@@ -200,6 +200,12 @@
                                android:id="@+id/show_order_type_default"
                                android:text="Default"
                                android:checked="true"/>
+
+                           <RadioButton
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:id="@+id/show_order_type_reverse"
+                               android:text="Reverse"/>
                        </RadioGroup>
 
                    </RadioGroup>
