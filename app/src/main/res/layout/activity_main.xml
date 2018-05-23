@@ -244,6 +244,11 @@
                             android:layout_height="wrap_content"
                             android:id="@+id/hide_order_type_reverse"
                             android:text="@string/reverse"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/hide_order_type_random"/>
                     </RadioGroup>
 
                 </RadioGroup>
