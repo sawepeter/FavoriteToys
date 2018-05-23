@@ -16,4 +16,5 @@
     <string name="random">Random</string>
     <string name="hide_order">Hide Order</string>
     <string name="animation_listener">Animation Listener</string>
+    <string name="click_effect">Click Effect</string>
 </resources>
