@@ -323,6 +323,12 @@
                         android:text="@string/share"
                         android:id="@+id/share_example"/>
 
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/builder_example"
+                        android:text="@string/builder_example"/>
+
                 </RadioGroup>
 
             </RadioGroup>
