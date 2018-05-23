@@ -15,4 +15,5 @@
     <string name="reverse">Reverse</string>
     <string name="random">Random</string>
     <string name="hide_order">Hide Order</string>
+    <string name="animation_listener">Animation Listener</string>
 </resources>

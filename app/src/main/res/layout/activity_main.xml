@@ -248,8 +248,17 @@
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:text="@string/random"
                             android:id="@+id/hide_order_type_random"/>
                     </RadioGroup>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/black"
+                        android:text="@string/animation_listener"
+                        android:textStyle="bold"
+                        android:textSize="20sp"/>
 
                 </RadioGroup>
 
