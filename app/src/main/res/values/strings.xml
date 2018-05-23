@@ -22,4 +22,5 @@
     <string name="exam">Examples</string>
     <string name="easy_example">Easy Example</string>
     <string name="listview_example">ListView Example</string>
+    <string name="share">Share Example</string>
 </resources>
