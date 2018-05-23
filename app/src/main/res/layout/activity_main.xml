@@ -216,6 +216,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/random" />
 
+                    </RadioGroup>
+
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -224,6 +226,12 @@
                             android:textColor="@android:color/black"
                             android:textSize="20sp"
                             android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/group_hide_order_type">
+
                     </RadioGroup>
 
                 </RadioGroup>
