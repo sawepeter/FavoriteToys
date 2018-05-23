@@ -337,6 +337,9 @@
     <com.nightonke.boommenu.BoomMenuButton
         android:layout_width="wrap_content"
         android:id="@+id/boom"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        app:boom_inActionBar="false"
         android:layout_height="wrap_content">
 
     </com.nightonke.boommenu.BoomMenuButton>
