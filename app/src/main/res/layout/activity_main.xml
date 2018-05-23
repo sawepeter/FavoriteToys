@@ -89,6 +89,7 @@
                     android:textColor="@android:color/black"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+            </RadioGroup>
 
                 <RadioGroup
                     android:id="@+id/group_place_type"
@@ -103,6 +104,7 @@
                         android:textColor="@android:color/black"
                         android:textSize="20sp"
                         android:textStyle="bold" />
+                </RadioGroup>
 
                     <SeekBar
                         android:id="@+id/animation_duration_seek"
@@ -328,10 +330,6 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/builder_example"
                         android:text="@string/builder_example"/>
-
-                </RadioGroup>
-
-            </RadioGroup>
 
         </LinearLayout>
     </ScrollView>
