@@ -193,7 +193,13 @@
                            android:layout_width="match_parent"
                            android:layout_height="wrap_content"
                            android:id="@+id/group_show_order_type">
-                           
+
+                           <RadioButton
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:id="@+id/show_order_type_default"
+                               android:text="Default"
+                               android:checked="true"/>
                        </RadioGroup>
 
                    </RadioGroup>
