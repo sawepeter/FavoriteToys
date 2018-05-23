@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">FavoriteToys</string>
+    <string name="button_type">Button Type</string>
+    <string name="circle_button">Circle Button</string>
+    <string name="hamburger_button">Hamburger Button</string>
+    <string name="button_number">Button Number</string>
+    <string name="boom_type">Boom Type</string>
+    <string name="place_type">Place Type</string>
+    <string name="animation_duration">Animation Duration</string>
+    <string name="animation_start_delay">Animation Start Delay</string>
+    <string name="animation_rotation_degree">Animation Rotation Degree</string>
+    <string name="auto_dismiss">Auto Dismiss</string>
+    <string name="show_order">Show Order</string>
+    <string name="button">Default</string>
+    <string name="reverse">Reverse</string>
+    <string name="random">Random</string>
+    <string name="hide_order">Hide Order</string>
 </resources>

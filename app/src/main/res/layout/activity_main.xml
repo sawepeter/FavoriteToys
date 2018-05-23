@@ -11,223 +11,226 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:orientation="vertical"
-               android:paddingBottom="16dp"
-               android:paddingLeft="16dp"
-               android:paddingRight="16dp"
-               android:paddingTop="16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="16dp">
 
-               <TextView
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:textColor="@android:color/black"
-                   android:text="Button Type"
-                   android:textStyle="bold"/>
-               <RadioGroup
-                   android:layout_width="match_parent"
-                   android:id="@+id/group_button_type"
-                   android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/button_type"
+                android:textColor="@android:color/black"
+                android:textStyle="bold" />
 
-                   <RadioButton
-                       android:layout_width="match_parent"
-                       android:layout_height="wrap_content"
-                       android:id="@+id/circle_button"
-                       android:text="Circle Button"
-                       android:checked="true"/>
-                   <RadioButton
-                       android:layout_width="match_parent"
-                       android:layout_height="wrap_content"
-                       android:id="@+id/hamburger_button"
-                       android:text="Hamburger Button"/>
+            <RadioGroup
+                android:id="@+id/group_button_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-               </RadioGroup>
+                <RadioButton
+                    android:id="@+id/circle_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/circle_button" />
 
-               <TextView
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:textColor="@android:color/black"
-                   android:text="Button Number"
-                   android:textStyle="bold"
-                   android:textSize="20sp"
-                   android:layout_marginTop="20dp"/>
+                <RadioButton
+                    android:id="@+id/hamburger_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hamburger_button" />
 
-               <SeekBar
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:id="@+id/button_number_seek"
-                   android:progress="0"/>
+            </RadioGroup>
 
-               <TextView
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:id="@+id/button_number_text"
-                   android:gravity="center_vertical|end"/>
-               <TextView
-                   android:layout_width="match_parent"
-                   android:layout_height="wrap_content"
-                   android:textColor="@android:color/black"
-                   android:text="Boom Type"
-                   android:textStyle="bold"
-                   android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/button_number"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-               <RadioGroup
-                   android:layout_width="match_parent"
-                   android:id="@+id/group_boom_type"
-                   android:layout_height="wrap_content">
+            <SeekBar
+                android:id="@+id/button_number_seek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="0" />
 
-                   <TextView
-                       android:layout_width="match_parent"
-                       android:layout_height="wrap_content"
-                       android:textColor="@android:color/black"
-                       android:text="Place Type"
-                       android:textStyle="bold"
-                       android:textSize="20sp"
-                       android:layout_marginTop="20dp"/>
+            <TextView
+                android:id="@+id/button_number_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|end" />
 
-                   <RadioGroup
-                       android:layout_width="match_parent"
-                       android:id="@+id/group_place_type"
-                       android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boom_type"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:textColor="@android:color/black"
-                           android:text="Animation Duration"
-                              android:textStyle="bold"
-                           android:textSize="20sp"
-                           android:layout_marginTop="20dp"/>
+            <RadioGroup
+                android:id="@+id/group_boom_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-                       <SeekBar
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:id="@+id/animation_duration_seek"
-                           android:progress="0"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="@string/place_type"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:id="@+id/animation_duration_text"/>
+                <RadioGroup
+                    android:id="@+id/group_place_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
 
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:textColor="@android:color/black"
-                           android:text="Animation Start Delay"
-                           android:textStyle="bold"
-                           android:textSize="20sp"
-                           android:layout_marginTop="20dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/animation_duration"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
-                       <SeekBar
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:id="@+id/animation_start_delay_seek"
-                           android:progress="0"/>
+                    <SeekBar
+                        android:id="@+id/animation_duration_seek"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:progress="0" />
 
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:id="@+id/animation_start_delay_text"
-                           android:gravity="center_vertical|end"/>
+                    <TextView
+                        android:id="@+id/animation_duration_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
 
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:textColor="@android:color/black"
-                           android:text="Animation Rotation Degree"
-                           android:textStyle="bold"
-                           android:textSize="20sp"
-                           android:layout_marginTop="20dp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/animation_start_delay"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
-                       <SeekBar
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:id="@+id/animation_rotation_degree_seek"
-                           android:progress="0"/>
+                    <SeekBar
+                        android:id="@+id/animation_start_delay_seek"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:progress="0" />
 
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:gravity="center_vertical|end"
-                           android:id="@+id/animation_rotation_degree_text"/>
+                    <TextView
+                        android:id="@+id/animation_start_delay_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|end" />
 
-                       <LinearLayout
-                           android:layout_width="match_parent"
-                           android:layout_height="40dp"
-                           android:orientation="horizontal"
-                           android:layout_marginTop="20dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/animation_rotation_degree"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
-                           <TextView
-                               android:layout_width="wrap_content"
-                               android:layout_height="wrap_content"
-                               android:layout_gravity="center_vertical"
-                               android:textColor="@android:color/black"
-                               android:text="Auto Dismiss"
-                               android:textStyle="bold"
-                               android:textSize="20sp"/>
+                    <SeekBar
+                        android:id="@+id/animation_rotation_degree_seek"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:progress="0" />
 
-                           <CheckBox
-                               android:layout_width="0dp"
-                               android:layout_height="wrap_content"
-                               android:id="@+id/auto_dismiss"
-                               android:layout_gravity="center_vertical"
-                               android:layout_weight="1"
-                               android:gravity="center"
-                               android:layout_marginLeft="20dp"
-                               android:layout_marginStart="20dp"/>
-                       </LinearLayout>
+                    <TextView
+                        android:id="@+id/animation_rotation_degree_text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical|end" />
 
-                       <TextView
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:textColor="@android:color/black"
-                           android:text="Show Order"
-                           android:textStyle="bold"
-                           android:textSize="20sp"
-                           android:layout_marginTop="20dp"/>
-                       
-                       <RadioGroup
-                           android:layout_width="match_parent"
-                           android:layout_height="wrap_content"
-                           android:id="@+id/group_show_order_type">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal">
 
-                           <RadioButton
-                               android:layout_width="match_parent"
-                               android:layout_height="wrap_content"
-                               android:id="@+id/show_order_type_default"
-                               android:text="Default"
-                               android:checked="true"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:text="@string/auto_dismiss"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
 
-                           <RadioButton
-                               android:layout_width="match_parent"
-                               android:layout_height="wrap_content"
-                               android:id="@+id/show_order_type_reverse"
-                               android:text="Reverse"/>
+                        <CheckBox
+                            android:id="@+id/auto_dismiss"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginStart="20dp"
+                            android:layout_weight="1"
+                            android:gravity="center" />
+                    </LinearLayout>
 
-                           <RadioButton
-                               android:layout_width="match_parent"
-                               android:layout_height="wrap_content"
-                               android:text="Random"
-                               android:id="@+id/show_order_type_random"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="@string/show_order"
+                        android:textColor="@android:color/black"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
 
-                           <TextView
-                               android:layout_width="match_parent"
-                               android:layout_height="wrap_content"
-                               android:textColor="@android:color/black"
-                               android:text="Hide Order"
-                               android:textStyle="bold"
-                               android:textSize="20sp"
-                               android:layout_marginTop="20dp"/>
-                       </RadioGroup>
+                    <RadioGroup
+                        android:id="@+id/group_show_order_type"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
 
-                   </RadioGroup>
+                        <RadioButton
+                            android:id="@+id/show_order_type_default"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="@string/button" />
 
-               </RadioGroup>
+                        <RadioButton
+                            android:id="@+id/show_order_type_reverse"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reverse" />
 
-           </LinearLayout>
+                        <RadioButton
+                            android:id="@+id/show_order_type_random"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/random" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:text="@string/hide_order"
+                            android:textColor="@android:color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </RadioGroup>
+
+                </RadioGroup>
+
+            </RadioGroup>
+
+        </LinearLayout>
     </ScrollView>
 
 
