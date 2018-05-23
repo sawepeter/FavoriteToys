@@ -11,14 +11,113 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/tv_toy_names"
-                android:padding="16dp"
-                android:textStyle="bold"
-                android:textSize="20sp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:paddingBottom="16dp"
+               android:paddingLeft="16dp"
+               android:paddingRight="16dp"
+               android:paddingTop="16dp">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@android:color/black"
+                   android:text="Button Type"
+                   android:textStyle="bold"/>
+               <RadioGroup
+                   android:layout_width="match_parent"
+                   android:id="@+id/group_button_type"
+                   android:layout_height="wrap_content">
+
+                   <RadioButton
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/circle_button"
+                       android:text="Circle Button"
+                       android:checked="true"/>
+                   <RadioButton
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:id="@+id/hamburger_button"
+                       android:text="Hamburger Button"/>
+
+               </RadioGroup>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@android:color/black"
+                   android:text="Button Number"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:layout_marginTop="20dp"/>
+
+               <SeekBar
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/button_number_seek"
+                   android:progress="0"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/button_number_text"
+                   android:gravity="center_vertical|end"/>
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:textColor="@android:color/black"
+                   android:text="Boom Type"
+                   android:textStyle="bold"
+                   android:textSize="20sp"/>
+
+               <RadioGroup
+                   android:layout_width="match_parent"
+                   android:id="@+id/group_boom_type"
+                   android:layout_height="wrap_content">
+
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:textColor="@android:color/black"
+                       android:text="Place Type"
+                       android:textStyle="bold"
+                       android:textSize="20sp"
+                       android:layout_marginTop="20dp"/>
+
+                   <RadioGroup
+                       android:layout_width="match_parent"
+                       android:id="@+id/group_place_type"
+                       android:layout_height="wrap_content">
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:textColor="@android:color/black"
+                           android:text="Animation Duration"
+                           android:textStyle="bold"
+                           android:textSize="20sp"
+                           android:layout_marginTop="20dp"/>
+
+                       <SeekBar
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/animation_duration_seek"
+                           android:progress="0"/>
+
+                       <TextView
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:id="@+id/animation_duration_text"/>
+
+                   </RadioGroup>
+
+               </RadioGroup>
+
+           </LinearLayout>
     </ScrollView>
-    
+
 
 </FrameLayout>
