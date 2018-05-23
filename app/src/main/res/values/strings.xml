@@ -18,4 +18,6 @@
     <string name="animation_listener">Animation Listener</string>
     <string name="click_effect">Click Effect</string>
     <string name="ripple">Ripple</string>
+    <string name="nn">Normal</string>
+    <string name="exam">Examples</string>
 </resources>
