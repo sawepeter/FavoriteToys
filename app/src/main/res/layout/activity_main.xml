@@ -206,6 +206,12 @@
                                android:layout_height="wrap_content"
                                android:id="@+id/show_order_type_reverse"
                                android:text="Reverse"/>
+
+                           <RadioButton
+                               android:layout_width="match_parent"
+                               android:layout_height="wrap_content"
+                               android:text="Random"
+                               android:id="@+id/show_order_type_random"/>
                        </RadioGroup>
 
                    </RadioGroup>
