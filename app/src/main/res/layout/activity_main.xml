@@ -281,7 +281,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/group_click_effect">
-                        
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/click_effect_ripple"
+                            android:text="@string/ripple"
+                            android:checked="true"/>
                     </RadioGroup>
 
                 </RadioGroup>
