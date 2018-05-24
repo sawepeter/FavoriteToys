@@ -27,6 +27,11 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
     private RadioGroup boomTypeGroup;
     private RadioButton[] boomTypeButtons;
 
+    private RadioGroup placeTypeGroup;
+    private RadioButton[] placeTypeButtons;
+    private int[] CirclePlaceTypes = new int[] {1,2,4,2,4,6,4,3,2};
+    private int[] HamPlaceTypes = new int[] {1,1,1,1};
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
