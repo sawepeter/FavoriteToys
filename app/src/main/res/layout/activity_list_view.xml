@@ -10,4 +10,9 @@
     android:paddingBottom="16dp"
     tools:context="com.example.sawepeter.favoritetoys.ListViewActivity">
 
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/list_view"
+        android:layout_height="match_parent"/>
+
 </RelativeLayout>
