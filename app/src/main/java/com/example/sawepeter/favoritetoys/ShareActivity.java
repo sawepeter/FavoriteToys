@@ -1,4 +1,4 @@
-package com.example.sawepeter.favoritetoys;
+ package com.example.sawepeter.favoritetoys;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
