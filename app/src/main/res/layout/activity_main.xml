@@ -234,12 +234,13 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/group_hide_order_type">
 
+
                         <RadioButton
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="@string/button"
                             android:checked="true"
-                            android:id="@+id/hide-order_type_default"/>
+                            android:id="@+id/hide_order_type_default"/>
 
                         <RadioButton
                             android:layout_width="match_parent"
