@@ -8,6 +8,14 @@
 
     <com.nightonke.boommenu.BoomMenuButton
         android:layout_width="wrap_content"
+        android:id="@+id/boom"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        app:boom_inActionBar="false"
+        app:boom_button_color="@color/colorAccent"
+        app:boom_button_pressed_color="@color/colorAccent"
         android:layout_height="wrap_content"/>
 
 </RelativeLayout>
