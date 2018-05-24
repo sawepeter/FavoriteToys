@@ -19,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".BuilderActivity" />
-        <activity android:name=".EasyUseActivity"></activity>
+        <activity android:name=".EasyUseActivity" />
+        <activity android:name=".ListViewActivity"></activity>
     </application>
 
 </manifest>

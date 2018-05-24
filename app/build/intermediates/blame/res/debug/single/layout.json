@@ -168,6 +168,10 @@
         "source": "C:\\Users\\SAWE PETER\\.android\\build-cache\\a2fb50b6fc9f10ca5ce42085fb0f826f8cf588de\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_view.xml",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\src\\main\\res\\layout\\activity_list_view.xml"
+    },
+    {
         "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "C:\\Users\\SAWE PETER\\.android\\build-cache\\a2fb50b6fc9f10ca5ce42085fb0f826f8cf588de\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
