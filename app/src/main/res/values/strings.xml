@@ -24,4 +24,5 @@
     <string name="listview_example">ListView Example</string>
     <string name="share">Share Example</string>
     <string name="builder_example">Builder Example</string>
+    <string name="width">Line Width</string>
 </resources>
