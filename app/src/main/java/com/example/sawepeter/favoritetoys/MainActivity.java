@@ -106,6 +106,7 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
             int[] drawablesResource = new int[]{
                     R.drawable.boom,
                     R.drawable.github,
+                    R.drawable.java
             }
         }
 
