@@ -37,25 +37,29 @@ MERGED from [com.android.support:support-compat:24.2.1] C:\Users\SAWE PETER\.and
 	android:theme
 		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:10:9-40
 activity#com.example.sawepeter.favoritetoys.MainActivity
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:11:9-14:20
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:11:9-13:57
 	android:label
 		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:13:13-45
 	android:name
 		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:12:13-41
 activity#com.example.sawepeter.favoritetoys.SplashScreen
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:14:9-20:20
 	android:name
-		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:14:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:18:27-74
+activity#com.example.sawepeter.favoritetoys.BuilderActivity
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:21:9-62
+	android:name
+		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:21:19-50
 uses-sdk
 INJECTED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\SAWE PETER\.android\build-cache\94e54e0edf8337abfc9ec5914e5074e66ec2094c\output\AndroidManifest.xml:5:5-7:41
