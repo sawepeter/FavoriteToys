@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
         mContext = this;
 
         ActionBar mActionBar = getSupportActionBar();
-        mActionBar.setDisplayShowHomeEnabled(false);
+        mActionBar.setDisplayShowHomeEnabled(true);
         mActionBar.setDisplayShowTitleEnabled(false);
         LayoutInflater mInflater = LayoutInflater.from(this);
 
