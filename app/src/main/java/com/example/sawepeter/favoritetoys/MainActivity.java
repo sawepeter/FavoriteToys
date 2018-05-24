@@ -1,8 +1,10 @@
 package com.example.sawepeter.favoritetoys;
 
+import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 
 import com.nightonke.boommenu.BoomMenuButton;
@@ -11,6 +13,12 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
     private BoomMenuButton boomMenuButton;
     private BoomMenuButton boomMenuButtonInActionBar;
     private BoomMenuButton boomInfo;
+
+    private Context mContext;
+    private View mCustomView;
+
+    private RadioGroup buttonTypeGroup;
+    
 
 
     @Override
