@@ -19,5 +19,11 @@
         android:layout_height="match_parent"
         app:boom_inList="true"/>
 
+    <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/boom_ham"
+        android:layout_width="56dp"
+        android:layout_height="match_parent"
+        app:boom_inList="true"/>
+
 
 </LinearLayout>
