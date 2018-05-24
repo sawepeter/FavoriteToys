@@ -8,7 +8,9 @@ import android.widget.TextView;
 import com.nightonke.boommenu.BoomMenuButton;
 
 public class MainActivity extends AppCompatActivity implements BoomMenuButton.OnSubButtonClickListener,BoomMenuButton.AnimatorListener,View.OnClickListener{
-
+    private BoomMenuButton boomMenuButton;
+    private BoomMenuButton boomMenuButtonInActionBar;
+    private BoomMenuButton boomInfo;
 
 
     @Override
@@ -21,7 +23,7 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
 
     @Override
     public void onClick(View v) {
-        
+
     }
 
     @Override
