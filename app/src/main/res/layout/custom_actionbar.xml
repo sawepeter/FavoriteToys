@@ -5,4 +5,7 @@
     android:layout_height="match_parent"
     android:background="@color/transparent">
 
+    <com.nightonke.boommenu.BoomMenuButton
+        android:layout_width="56dp"
+        android:layout_height="match_parent"/>
 </RelativeLayout>
