@@ -359,6 +359,7 @@
     <string name="app_name">FavoriteToys</string>
     <string name="auto_dismiss">Auto Dismiss</string>
     <string name="boom_type">Boom Type</string>
+    <string name="boommenubutton">This is an easy use of BoomMenuButton</string>
     <string name="builder_example">Builder Example</string>
     <string name="button">Default</string>
     <string name="button_num">Button Number</string>
