@@ -82,6 +82,10 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
 
         ((Toolbar) mCustomView.getParent()).setContentInsetsAbsolute(0,0);
 
+        boomMenuButton = (BoomMenuButton)findViewById(R.id.boom);
+
+        boomInfo = (BoomMenuButton)mCustomView.findViewById(R.id.info);
+
 //the code below was generated via implemantation of methods and oought to be deleted
         }
 
