@@ -3,6 +3,7 @@ package com.example.sawepeter.favoritetoys;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -107,7 +108,11 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
                     R.drawable.boom,
                     R.drawable.github,
                     R.drawable.java
-            }
+            };
+            for (int i=0; i < 3; i++)
+                drawables[i] = ContextCompat.getDrawable(mContext,drawablesResource[i]);
+
+            int[][] colors = new int[3][2];
         }
 
 }
