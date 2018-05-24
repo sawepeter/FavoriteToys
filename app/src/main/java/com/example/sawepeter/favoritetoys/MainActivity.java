@@ -2,6 +2,7 @@ package com.example.sawepeter.favoritetoys;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -91,7 +92,21 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
 
         public void onWindowFocusChanged(boolean hasFocus) {
             super.onWindowFocusChanged(hasFocus);
-            
+
+            if (!isInit) {
+                initBoom();
+                initInfoBoom();
+            }
+            isInit = true;
+        }
+
+        private void initInfoBoom() {
+
+            Drawable [] drawables = new Drawable[3];
+            int[] drawablesResource = new int[]{
+                    R.drawable.boom,
+                    R.drawable.github,
+            }
         }
 
 }
