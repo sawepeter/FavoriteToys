@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
     private int[] CirclePlaceTypes = new int[] {1,2,4,2,4,6,4,3,2};
     private int[] HamPlaceTypes = new int[] {1,1,1,1};
 
+    private SeekBar animationDurationSeek;
+    private TextView animationDurationText;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
