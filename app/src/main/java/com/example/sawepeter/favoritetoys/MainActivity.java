@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -20,7 +21,11 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
 
     private RadioGroup buttonTypeGroup;
 
-    private SeekBar buttonNumber
+    private SeekBar buttonNumber;
+    private TextView mCustomView;
+
+    private RadioGroup boomTypeGroup;
+    private RadioButton[] boomTypeButtons;
 
 
     @Override
