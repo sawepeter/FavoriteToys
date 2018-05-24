@@ -25,4 +25,8 @@
         android:layout_toRightOf="@+id/boom"
         android:layout_toEndOf="@+id/boom"/>
 
+    <com.nightonke.boommenu.BoomMenuButton
+        android:layout_width="56dp"
+        android:layout_height="match_parent"/>
+
 </RelativeLayout>
