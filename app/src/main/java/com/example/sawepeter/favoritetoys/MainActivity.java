@@ -18,6 +18,9 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.nightonke.boommenu.BoomMenuButton;
+import com.nightonke.boommenu.Types.BoomType;
+import com.nightonke.boommenu.Types.ButtonType;
+import com.nightonke.boommenu.Types.PlaceType;
 import com.nightonke.boommenu.Util;
 
 public class MainActivity extends AppCompatActivity implements BoomMenuButton.OnSubButtonClickListener,BoomMenuButton.AnimatorListener,View.OnClickListener{
@@ -118,6 +121,17 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
                 colors[i][1] = ContextCompat.getColor(mContext, R.color.material_white);
                 colors[i][0] = Util.getInstance().getPressedColor(colors[i][1]);
             }
+            //now with Builder, you can init BMB more convenient
+
+            new BoomMenuButton.Builder()
+                    .subButtons(drawables,colors, new String[]{"BoomMenuButton", "View source code"})
+                    .button(ButtonType.HAM)
+                    .boom(BoomType.PARABOLA_2)
+                    .place(PlaceType.HAM_3_1)
+                    .subButtonsShadow(Util.getInstance().dp2px(2),Util.getInstance().dp2px(2))
+                    .subButtonTextColor(ContextCompat.getColor(mContext,R.color.black))
+                    })
+
         }
 
 }
