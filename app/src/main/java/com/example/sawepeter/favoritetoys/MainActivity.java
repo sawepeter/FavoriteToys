@@ -61,7 +61,9 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        mContext = this;
 
+//the code below was generated via implemantation of methods and oought to be deleted
         }
 
     @Override
