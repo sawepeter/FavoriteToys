@@ -2,9 +2,12 @@ package com.example.sawepeter.favoritetoys;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+import com.nightonke.boommenu.BoomMenuButton;
+
+public class MainActivity extends AppCompatActivity implements BoomMenuButton.OnSubButtonClickListener,BoomMenuButton.AnimatorListener,View.OnClickListener{
 
 
 
@@ -15,5 +18,45 @@ public class MainActivity extends AppCompatActivity {
 
 
         }
+
+    @Override
+    public void onClick(View v) {
+        
     }
+
+    @Override
+    public void toShow() {
+
+    }
+
+    @Override
+    public void showing(float fraction) {
+
+    }
+
+    @Override
+    public void showed() {
+
+    }
+
+    @Override
+    public void toHide() {
+
+    }
+
+    @Override
+    public void hiding(float fraction) {
+
+    }
+
+    @Override
+    public void hided() {
+
+    }
+
+    @Override
+    public void onClick(int buttonIndex) {
+
+    }
+}
 

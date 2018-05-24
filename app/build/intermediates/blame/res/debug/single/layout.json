@@ -8,6 +8,10 @@
         "source": "C:\\Users\\SAWE PETER\\.android\\build-cache\\a2fb50b6fc9f10ca5ce42085fb0f826f8cf588de\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_actionbar.xml",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\src\\main\\res\\layout\\custom_actionbar.xml"
+    },
+    {
         "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\boom_menu_button_below_lollipop.xml",
         "source": "C:\\Users\\SAWE PETER\\.android\\build-cache\\04cb1155af16171c80181e554e82111d8eaed237\\output\\res\\layout\\boom_menu_button_below_lollipop.xml"
     },
@@ -174,6 +178,10 @@
     {
         "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_list_view.xml",
         "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\src\\main\\res\\layout\\activity_list_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item.xml",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\src\\main\\res\\layout\\item.xml"
     },
     {
         "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
