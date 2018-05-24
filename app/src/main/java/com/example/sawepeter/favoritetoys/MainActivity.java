@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
     private SeekBar animationDurationSeek;
     private TextView animationDurationText;
 
+    private SeekBar animationStartDelaySeek;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
