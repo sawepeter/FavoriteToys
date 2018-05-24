@@ -18,6 +18,7 @@ import android.widget.SeekBar;
 import android.widget.TextView;
 
 import com.nightonke.boommenu.BoomMenuButton;
+import com.nightonke.boommenu.Util;
 
 public class MainActivity extends AppCompatActivity implements BoomMenuButton.OnSubButtonClickListener,BoomMenuButton.AnimatorListener,View.OnClickListener{
     private BoomMenuButton boomMenuButton;
@@ -115,6 +116,7 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
             int[][] colors = new int[3][2];
             for (int i =0; i<3; i++) {
                 colors[i][1] = ContextCompat.getColor(mContext, R.color.material_white);
+                colors[i][0] = Util.getInstance().getPressedColor(colors[i][1]);
             }
         }
 
