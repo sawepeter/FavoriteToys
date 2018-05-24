@@ -89,44 +89,10 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
         initViews();
         }
 
-    @Override
-    public void onClick(View v) {
+        public void onWindowFocusChanged(boolean hasFocus) {
+            super.onWindowFocusChanged(hasFocus);
+            
+        }
 
-    }
-
-    @Override
-    public void toShow() {
-
-    }
-
-    @Override
-    public void showing(float fraction) {
-
-    }
-
-    @Override
-    public void showed() {
-
-    }
-
-    @Override
-    public void toHide() {
-
-    }
-
-    @Override
-    public void hiding(float fraction) {
-
-    }
-
-    @Override
-    public void hided() {
-
-    }
-
-    @Override
-    public void onClick(int buttonIndex) {
-
-    }
 }
 
