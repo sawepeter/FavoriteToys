@@ -87,8 +87,6 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
         boomInfo = (BoomMenuButton)mCustomView.findViewById(R.id.info);
 
         initViews();
-
-//the code below was generated via implemantation of methods and oought to be deleted
         }
 
     @Override
