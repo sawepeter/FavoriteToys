@@ -113,6 +113,9 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
                 drawables[i] = ContextCompat.getDrawable(mContext,drawablesResource[i]);
 
             int[][] colors = new int[3][2];
+            for (int i =0; i<3; i++) {
+                colors[i][1] = ContextCompat.getColor(mContext, R.color.material_white);
+            }
         }
 
 }
