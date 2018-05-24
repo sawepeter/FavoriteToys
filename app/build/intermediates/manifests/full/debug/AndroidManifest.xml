@@ -25,6 +25,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.sawepeter.favoritetoys.BuilderActivity" />
+        <activity android:name="com.example.sawepeter.favoritetoys.EasyUseActivity" />
     </application>
 
 </manifest>
