@@ -1,9 +1,12 @@
 package com.example.sawepeter.favoritetoys;
 
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.ProgressBar;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
@@ -40,6 +43,17 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
 
     private SeekBar animationRotationDegreeSeek;
     private TextView animationRotationDegreeText;
+
+    private CheckBox autodismiss;
+
+    private RadioGroup showOrderTypeGroup;
+    private RadioGroup hideOrderTypeGroup;
+
+    private RadioGroup clickEffect;
+
+    private ProgressBar animationListener;
+
+    private boolean isInit = false;
 
 
     @Override
