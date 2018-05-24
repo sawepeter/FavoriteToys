@@ -10,10 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="16dp"
-        android:paddingLeft="16dp"
-        android:paddingRight="16dp"
-        android:paddingTop="16dp">
+        android:paddingBottom="@dimen/activity_vertical_mar"
+        android:paddingLeft="@dimen/activity_horizontal"
+        android:paddingRight="@dimen/activity_hori"
+        android:paddingTop="@dimen/activity_vertical">
         <RadioGroup
             android:layout_width="match_parent"
             android:id="@+id/group_place_type"
