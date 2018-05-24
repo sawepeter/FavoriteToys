@@ -39,6 +39,16 @@
             android:layout_height="wrap_content"
             android:id="@+id/button_number_text"
             android:gravity="center_vertical|end"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:text="@string/place_type"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+
         
         <RadioGroup
             android:layout_width="match_parent"
