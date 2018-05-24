@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context="com.example.sawepeter.favoritetoys.ShareActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/share_line_width_text"
+        android:gravity="center_vertical|end"
+        android:layout_height="wrap_content" />
+
     <com.nightonke.boommenu.BoomMenuButton
         android:layout_width="wrap_content"
         android:id="@+id/boom"
