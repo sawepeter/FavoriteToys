@@ -2,8 +2,10 @@ package com.example.sawepeter.favoritetoys;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.ProgressBar;
@@ -62,6 +64,11 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
         setContentView(R.layout.activity_main);
 
         mContext = this;
+
+        ActionBar mActionBar = getSupportActionBar();
+        mActionBar.setDisplayShowHomeEnabled(false);
+        mActionBar.setDisplayShowTitleEnabled(false);
+        LayoutInflater mInflater = LayoutInflater.from(this);
 
 //the code below was generated via implemantation of methods and oought to be deleted
         }
