@@ -14,6 +14,12 @@
         android:paddingLeft="@dimen/activity_horizontal"
         android:paddingRight="@dimen/activity_hori"
         android:paddingTop="@dimen/activity_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/share_example"/>
+        
         <RadioGroup
             android:layout_width="match_parent"
             android:id="@+id/group_place_type"
