@@ -27,6 +27,7 @@
         <activity android:name="com.example.sawepeter.favoritetoys.BuilderActivity" />
         <activity android:name="com.example.sawepeter.favoritetoys.EasyUseActivity" />
         <activity android:name="com.example.sawepeter.favoritetoys.ListViewActivity" />
+        <activity android:name="com.example.sawepeter.favoritetoys.ShareActivity" />
     </application>
 
 </manifest>

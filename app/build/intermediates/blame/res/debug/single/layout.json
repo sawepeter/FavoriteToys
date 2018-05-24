@@ -40,6 +40,10 @@
         "source": "C:\\Users\\SAWE PETER\\.android\\build-cache\\a2fb50b6fc9f10ca5ce42085fb0f826f8cf588de\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
+        "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_share.xml",
+        "source": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\src\\main\\res\\layout\\activity_share.xml"
+    },
+    {
         "merged": "C:\\Users\\SAWE PETER\\AndroidStudioProjects\\FavoriteToys\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ham_button.xml",
         "source": "C:\\Users\\SAWE PETER\\.android\\build-cache\\04cb1155af16171c80181e554e82111d8eaed237\\output\\res\\layout\\ham_button.xml"
     },

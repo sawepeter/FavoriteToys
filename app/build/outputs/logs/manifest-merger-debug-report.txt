@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:3:5-49
 		INJECTED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\A
 		INJECTED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:5:5-25:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\SAWE PETER\.android\build-cache\94e54e0edf8337abfc9ec5914e5074e66ec2094c\output\AndroidManifest.xml:9:5-20
 MERGED from [com.nightonke:boommenu:1.0.9] C:\Users\SAWE PETER\.android\build-cache\04cb1155af16171c80181e554e82111d8eaed237\output\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:appcompat-v7:24.2.1] C:\Users\SAWE PETER\.android\build-cache\a2fb50b6fc9f10ca5ce42085fb0f826f8cf588de\output\AndroidManifest.xml:25:5-20
@@ -65,9 +65,13 @@ ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\A
 	android:name
 		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:22:19-50
 activity#com.example.sawepeter.favoritetoys.ListViewActivity
-ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:23:9-63
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:23:9-54
 	android:name
 		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:23:19-51
+activity#com.example.sawepeter.favoritetoys.ShareActivity
+ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:24:9-60
+	android:name
+		ADDED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml:24:19-48
 uses-sdk
 INJECTED from C:\Users\SAWE PETER\AndroidStudioProjects\FavoriteToys\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\SAWE PETER\.android\build-cache\94e54e0edf8337abfc9ec5914e5074e66ec2094c\output\AndroidManifest.xml:5:5-7:41
