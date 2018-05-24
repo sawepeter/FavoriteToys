@@ -5,6 +5,7 @@ import android.content.Context;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.CheckBox;
@@ -78,6 +79,8 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
 
         mActionBar.setCustomView(mCustomView);
         mActionBar.setDisplayShowCustomEnabled(true);
+
+        ((Toolbar) mCustomView.getParent()).setContentInsetsAbsolute(0,0);
 
 //the code below was generated via implemantation of methods and oought to be deleted
         }
