@@ -10,6 +10,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="@string/boommenubutton"
+        android:paddingBottom="@dimen/activity_hori"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_vertical"
+        android:paddingTop="@dimen/activity_vertical"
         />
 
 </RelativeLayout>
