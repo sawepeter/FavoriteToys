@@ -19,7 +19,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/share_example"/>
-        
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_num"/>
         <RadioGroup
             android:layout_width="match_parent"
             android:id="@+id/group_place_type"

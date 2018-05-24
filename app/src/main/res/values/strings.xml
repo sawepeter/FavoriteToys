@@ -26,4 +26,5 @@
     <string name="builder_example">Builder Example</string>
     <string name="width">Line Width</string>
     <string name="share_example">Share Example</string>
+    <string name="button_num">Button Number</string>
 </resources>
