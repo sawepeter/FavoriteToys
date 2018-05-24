@@ -70,6 +70,8 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
         mActionBar.setDisplayShowTitleEnabled(false);
         LayoutInflater mInflater = LayoutInflater.from(this);
 
+        mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
+
 //the code below was generated via implemantation of methods and oought to be deleted
         }
 
