@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
 
     private RadioGroup buttonTypeGroup;
 
-    private SeekBar buttonNumber;
-    private TextView mCustomView;
+    private SeekBar buttonNumberSeek;
+    private TextView buttonNumberText;
 
     private RadioGroup boomTypeGroup;
     private RadioButton[] boomTypeButtons;
