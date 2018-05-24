@@ -36,6 +36,10 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
     private TextView animationDurationText;
 
     private SeekBar animationStartDelaySeek;
+    private TextView animationStartDelayText;
+
+    private SeekBar animationRotationDegreeSeek;
+    private TextView animationRotationDegreeText;
 
 
     @Override
