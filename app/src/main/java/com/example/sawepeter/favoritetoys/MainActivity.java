@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity implements BoomMenuButton.On
         LayoutInflater mInflater = LayoutInflater.from(this);
 
         mCustomView = mInflater.inflate(R.layout.custom_actionbar, null);
+        TextView mTitleTextView = (TextView) mCustomView.findViewById(R.id.title_text);
 
 //the code below was generated via implemantation of methods and oought to be deleted
         }
